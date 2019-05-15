@@ -9,6 +9,8 @@ function App() {
   return (
     <div className="rootpage">
       <Header />
+      <div className={"leftRegion"} />
+      <div className={"rightRegion"} />
     </div>
   );
 }

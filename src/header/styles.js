@@ -16,6 +16,18 @@ export default theme => ({
     //border: "1px solid red"
   },
 
+  skillBadge: {
+    display: "inline-block",
+    margin: "5px 5px",
+    padding: "2px 12px",
+    backgroundColor: "#a3a3a3",
+    color: "#fff",
+    borderRadius: "3px",
+    fontWeight: "bold",
+    fontSize: "16px",
+    letterSpacing: "0.5px"
+  },
+
   contactDetails: {
     display: "inline-block",
     padding: "10px 10px",

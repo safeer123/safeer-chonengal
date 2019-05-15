@@ -42,9 +42,14 @@ const Header = ({ classes }) => (
           body1: `${classes.headerFontStyle}`
         }}
       >
-        Self motivated to work in web techology stacks <br />( Latest ReactJS +
-        WebGL )
+        Self motivated to work in web techology stacks
       </Typography>
+
+      <div>
+        <div className={classes.skillBadge}>ReactJS</div>
+        <div className={classes.skillBadge}>WebGL</div>
+        <div className={classes.skillBadge}>Material UI</div>
+      </div>
     </div>
 
     <div className={classes.contactDetails}>
