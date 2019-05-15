@@ -14,22 +14,68 @@ const Header = ({ classes }) => (
     />
     <div className={classes.profileDetails}>
       <Typography
-        variant="h4"
+        component="h2"
+        variant="display1"
         gutterBottom
         classes={{
-          h4: `${classes.headerFontStyle}`
+          display1: `${classes.headerFontStyle} ${classes.nametitle}`
         }}
       >
         Safeer Chonengal
       </Typography>
+
       <Typography
-        variant="h5"
+        variant="h6"
         gutterBottom
         classes={{
-          h5: `${classes.headerFontStyle}`
+          h6: `${classes.headerFontStyle} ${classes.jobtitle}`
         }}
       >
-        About me
+        Web Application developer
+        <br /> Graphics Engineer
+      </Typography>
+
+      <Typography
+        variant="body1"
+        gutterBottom
+        classes={{
+          body1: `${classes.headerFontStyle}`
+        }}
+      >
+        Self motivated to work in web techology stacks <br />( Latest ReactJS +
+        WebGL )
+      </Typography>
+    </div>
+
+    <div className={classes.contactDetails}>
+      <Typography
+        variant="h6"
+        gutterBottom
+        classes={{
+          h6: `${classes.headerFontStyle} ${classes.jobtitle}`
+        }}
+      >
+        +91 8105267620
+      </Typography>
+
+      <Typography
+        variant="h6"
+        gutterBottom
+        classes={{
+          h6: `${classes.headerFontStyle} ${classes.jobtitle}`
+        }}
+      >
+        safeer2c@gmail.com
+      </Typography>
+
+      <Typography
+        variant="h6"
+        gutterBottom
+        classes={{
+          h6: `${classes.headerFontStyle} ${classes.jobtitle}`
+        }}
+      >
+        <a href="https://www.linkedin.com/in/safeerchonengal">LinkedIn</a>
       </Typography>
     </div>
   </div>
