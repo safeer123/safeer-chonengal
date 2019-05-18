@@ -10,7 +10,7 @@ export default theme => ({
   },
   profileDetails: {
     display: "inline-block",
-    padding: "10px 10px",
+    padding: "10px 20px",
     verticalAlign: "top",
     width: "410px"
     //border: "1px solid red"

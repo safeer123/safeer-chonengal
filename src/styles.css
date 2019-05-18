@@ -9,17 +9,5 @@ body {
   width: 1000px;
   height: 1414px;
   background-color: #fefefe;
-}
-
-.leftRegion {
-  display: inline-block;
-  width: 60%;
-  min-height: 500px;
-}
-
-.rightRegion {
-  display: inline-block;
-  width: 40%;
-  background-color: #f4f4f4;
-  min-height: 500px;
+  vertical-align: top;
 }
