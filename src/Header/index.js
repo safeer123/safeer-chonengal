@@ -1,5 +1,6 @@
 import React from "react";
 import { compose } from "recompose";
+import { Phone, Email, Link } from "@material-ui/icons";
 import Typography from "@material-ui/core/Typography";
 import { withStyles, withTheme } from "@material-ui/core/styles";
 
@@ -61,6 +62,7 @@ const Header = ({ classes }) => (
         }}
       >
         +91 8105267620
+        <Phone />
       </Typography>
 
       <Typography
@@ -71,6 +73,7 @@ const Header = ({ classes }) => (
         }}
       >
         safeer2c@gmail.com
+        <Email />
       </Typography>
 
       <Typography
@@ -81,6 +84,7 @@ const Header = ({ classes }) => (
         }}
       >
         <a href="https://www.linkedin.com/in/safeerchonengal">LinkedIn</a>
+        <Link />
       </Typography>
     </div>
   </div>
