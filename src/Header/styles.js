@@ -16,16 +16,43 @@ export default theme => ({
     //border: "1px solid red"
   },
 
+  headerAboutMe: {
+    letterSpacing: "1px"
+  },
+
+  contactItem: {
+    margin: "10px 0px",
+    padding: "0px",
+    lineHeight: "22px",
+    fontSize: "15px"
+  },
+  contactInfoIcon: {
+    fontSize: "18px",
+    marginLeft: "10px",
+    marginTop: "2px",
+    verticalAlign: "top"
+  },
+  contactInfoLink: {
+    textDecoration: "none"
+  },
+  contactInfoAddress: {
+    display: "inline-block",
+    width: "80%",
+    color: "#323232",
+    fontSize: "12px"
+  },
+
   skillBadge: {
     display: "inline-block",
     margin: "5px 5px",
     padding: "2px 12px",
-    backgroundColor: "#a3a3a3",
-    color: "#fff",
+    // backgroundColor: "#a3a3a3",
+    color: "#7e7e7e",
     borderRadius: "3px",
     fontWeight: "bold",
     fontSize: "16px",
-    letterSpacing: "0.5px"
+    letterSpacing: "0.5px",
+    border: "1px solid #a3a3a3"
   },
 
   contactDetails: {

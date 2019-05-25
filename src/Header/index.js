@@ -1,15 +1,17 @@
 import React from "react";
 import { compose } from "recompose";
-import { Phone, Email, Link } from "@material-ui/icons";
+import { Phone, Email, Link, LocationOn } from "@material-ui/icons";
 import Typography from "@material-ui/core/Typography";
 import { withStyles, withTheme } from "@material-ui/core/styles";
 
+import contactInfo from "../dataSource/contact";
+import resumeHeader from "../dataSource/resumeHeader";
 import styles from "./styles";
 
 const Header = ({ classes }) => (
   <div className={classes.headerRoot}>
     <img
-      src="https://uploads.codesandbox.io/uploads/user/ad115901-c73d-4482-bdf8-9a6e3d2e853b/fubM-Photo%20from%20Safeer%20C.jpg"
+      src={contactInfo.profilePhoto}
       alt="Profile"
       className={classes.profilePhoto}
     />
@@ -22,7 +24,7 @@ const Header = ({ classes }) => (
           display1: `${classes.headerFontStyle} ${classes.nametitle}`
         }}
       >
-        Safeer Chonengal
+        {contactInfo.name}
       </Typography>
 
       <Typography
@@ -32,24 +34,25 @@ const Header = ({ classes }) => (
           h6: `${classes.headerFontStyle} ${classes.jobtitle}`
         }}
       >
-        Web Application developer
-        <br /> Graphics Engineer
+        {resumeHeader.title}
       </Typography>
 
       <Typography
         variant="body1"
         gutterBottom
         classes={{
-          body1: `${classes.headerFontStyle}`
+          body1: `${classes.headerAboutMe}`
         }}
       >
-        Self motivated to work in web techology stacks
+        {resumeHeader.aboutMe}
       </Typography>
 
       <div>
-        <div className={classes.skillBadge}>ReactJS</div>
-        <div className={classes.skillBadge}>WebGL</div>
-        <div className={classes.skillBadge}>Material UI</div>
+        {resumeHeader.promotedSkills.map(s => (
+          <div key={s} className={classes.skillBadge}>
+            {s}
+          </div>
+        ))}
       </div>
     </div>
 
@@ -58,33 +61,46 @@ const Header = ({ classes }) => (
         variant="h6"
         gutterBottom
         classes={{
-          h6: `${classes.headerFontStyle} ${classes.jobtitle}`
+          h6: `${classes.headerFontStyle} ${classes.contactItem}`
         }}
       >
-        +91 8105267620
-        <Phone />
+        {contactInfo.phone}
+        <Phone className={classes.contactInfoIcon} />
       </Typography>
 
       <Typography
         variant="h6"
         gutterBottom
         classes={{
-          h6: `${classes.headerFontStyle} ${classes.jobtitle}`
+          h6: `${classes.headerFontStyle} ${classes.contactItem}`
         }}
       >
-        safeer2c@gmail.com
-        <Email />
+        {contactInfo.email}
+        <Email className={classes.contactInfoIcon} />
       </Typography>
 
       <Typography
         variant="h6"
         gutterBottom
         classes={{
-          h6: `${classes.headerFontStyle} ${classes.jobtitle}`
+          h6: `${classes.headerFontStyle} ${classes.contactItem}`
         }}
       >
-        <a href="https://www.linkedin.com/in/safeerchonengal">LinkedIn</a>
-        <Link />
+        <a className={classes.contactInfoLink} href={contactInfo.linkedin}>
+          LinkedIn
+        </a>
+        <Link className={classes.contactInfoIcon} />
+      </Typography>
+
+      <Typography
+        variant="body1"
+        gutterBottom
+        classes={{
+          body1: `${classes.headerFontStyle} ${classes.contactItem}`
+        }}
+      >
+        <div className={classes.contactInfoAddress}>{contactInfo.address}</div>
+        <LocationOn className={classes.contactInfoIcon} />
       </Typography>
     </div>
   </div>
