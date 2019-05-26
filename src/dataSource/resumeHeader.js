@@ -3,7 +3,7 @@ import React from "react";
 export default {
   title: (
     <React.Fragment>
-      Web Application developer
+      Senior Web Application Developer
       <br /> Graphics Engineer
     </React.Fragment>
   ),
