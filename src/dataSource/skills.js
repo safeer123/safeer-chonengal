@@ -1,10 +1,14 @@
 export default [
   {
-    title: "Javascript(ES6)",
+    title: "JavaScript (ES6)",
     rating: 5
   },
   {
-    title: "React(16.8 with Hooks)",
+    title: "React (16.8 with Hooks)",
+    rating: 4
+  },
+  {
+    title: "WebGL",
     rating: 4
   },
   {
@@ -30,5 +34,13 @@ export default [
   {
     title: "HTML/CSS/SCSS",
     rating: 4
+  },
+  {
+    title: "GIT",
+    rating: 4
+  },
+  {
+    title: "Modular programming",
+    rating: 5
   }
 ];

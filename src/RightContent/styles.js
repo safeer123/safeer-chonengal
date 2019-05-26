@@ -1,5 +1,15 @@
 export default theme => ({
   item: {},
+
+  centerAligned: {
+    textAlign: "center"
+  },
+  highlighted: {
+    fontWeight: "bold"
+  },
+  smallFont: {
+    fontSize: "12px"
+  },
   rightRegion: {
     display: "inline-block",
     width: "40%",
@@ -11,7 +21,7 @@ export default theme => ({
   },
 
   sectionTitle: {
-    margin: "10px 20px",
+    margin: "15px 0px",
     color: "#555"
   },
   sectionTitleIcon: {

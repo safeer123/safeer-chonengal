@@ -10,7 +10,7 @@ import styles from "./styles";
 const Skills = ({ classes }) => {
   return (
     <div className={classes.workExperience}>
-      <h4 className={classes.sectionTitle}>
+      <h4 className={`${classes.sectionTitle} ${classes.centerAligned}`}>
         <Star className={classes.sectionTitleIcon} />
         SKILLS
       </h4>

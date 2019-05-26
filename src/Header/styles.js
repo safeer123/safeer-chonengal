@@ -6,7 +6,8 @@ export default theme => ({
     textAlign: "left"
   },
   profilePhoto: {
-    height: "100%"
+    height: "100%",
+    borderRight: "5px solid #FFF"
   },
   profileDetails: {
     display: "inline-block",

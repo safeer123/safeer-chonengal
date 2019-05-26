@@ -1,27 +1,27 @@
 import React from "react";
 import { compose } from "recompose";
 import { withStyles, withTheme } from "@material-ui/core/styles";
-import { Work, Lens } from "@material-ui/icons";
+import { Code, Lens } from "@material-ui/icons";
 
-import workExperience from "../dataSource/workExperience";
+import programmingExperience from "../dataSource/programmingExperience";
 import styles from "./styles";
 
-const WorkHistory = ({ classes }) => {
+const ProgrammingExperience = ({ classes }) => {
   return (
     <div className={classes.workExperience}>
       <h4 className={classes.sectionTitle}>
-        <Work className={classes.sectionTitleIcon} />
-        {workExperience.title.toUpperCase()}
+        <Code className={classes.sectionTitleIcon} />
+        PROGRAMMING EXPERIENCE
       </h4>
-      {workExperience.roles.map(w => (
+      {programmingExperience.map(p => (
         <div className={classes.item}>
           <h5 className={classes.itemTitle}>
-            {w.company.toUpperCase()} ({w.location} - {w.timeline})
+            {p.projectTitle.toUpperCase()} ({p.subTitle} - {p.year})
           </h5>
-          {w.notes.map(n => (
-            <div key={n} className={classes.content}>
+          {p.details.map(d => (
+            <div key={d} className={classes.content}>
               <Lens className={classes.contentTextBullet} />
-              <div className={classes.contentText}>{n}</div>
+              <div className={classes.contentText}>{d}</div>
             </div>
           ))}
         </div>
@@ -33,4 +33,4 @@ const WorkHistory = ({ classes }) => {
 export default compose(
   withTheme(),
   withStyles(styles)
-)(WorkHistory);
+)(ProgrammingExperience);

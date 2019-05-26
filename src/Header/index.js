@@ -86,7 +86,11 @@ const Header = ({ classes }) => (
           h6: `${classes.headerFontStyle} ${classes.contactItem}`
         }}
       >
-        <a className={classes.contactInfoLink} href={contactInfo.linkedin}>
+        <a
+          className={classes.contactInfoLink}
+          href={contactInfo.linkedin}
+          target="_blank"
+        >
           LinkedIn
         </a>
         <Link className={classes.contactInfoIcon} />

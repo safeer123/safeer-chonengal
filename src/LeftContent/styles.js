@@ -18,8 +18,10 @@ export default theme => ({
   },
 
   sectionTitle: {
-    margin: "10px 0px",
-    color: "#555"
+    margin: "15px 0px",
+    color: "#555",
+    backgroundColor: "#f4f4f4",
+    borderRadius: "10px"
   },
   sectionTitleIcon: {
     marginRight: "10px",
