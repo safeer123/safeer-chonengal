@@ -4,7 +4,15 @@ export default [
     rating: 5
   },
   {
-    title: "React (16.8 with Hooks)",
+    title: "NodeJS",
+    rating: 4
+  },
+  {
+    title: "React (with Hooks)",
+    rating: 4
+  },
+  {
+    title: "React Native",
     rating: 4
   },
   {
@@ -14,14 +22,6 @@ export default [
   {
     title: "Material UI",
     rating: 4
-  },
-  {
-    title: "Redux",
-    rating: 5
-  },
-  {
-    title: "QML",
-    rating: 3
   },
   {
     title: "C/C++",
@@ -40,7 +40,7 @@ export default [
     rating: 4
   },
   {
-    title: "Modular programming",
-    rating: 5
+    title: "AWS Services",
+    rating: 3
   }
 ];
