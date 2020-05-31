@@ -9,7 +9,7 @@ export default {
   linkedin: "https://www.linkedin.com/in/safeerchonengal",
   address: (
     <React.Fragment>
-      102, SIRI ENCLAVE, ECC Road, <br /> Whitefield, Bangalore - 560066
+      SIRI ENCLAVE, ECC ROAD, <br /> WHITEFIELD, BANGALORE - 560066
     </React.Fragment>
   )
 };

@@ -4,7 +4,7 @@ export default [
     subTitle: "C++ Graphics project",
     year: "2011",
     details: [
-      "Modelled SMALL-E, a 3D computer character similar to Pixar’s WALL-E, as part of the course Computer Graphics - (OpenGL C++)",
+      "Modelled SMALL-E, a 3D computer character similar to Pixar’s WALL-E, as part of a course on CG - (OpenGL C++)",
       "Created a room environment consisting of walls, light sources, tables and chairs. Implemented 24 degrees of freedom for animating SMALL-E."
     ]
   },

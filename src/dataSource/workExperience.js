@@ -1,8 +1,19 @@
 export default {
-  title: "Work History (6.8 years)",
+  title: "Work History (7.5 years)",
   roles: [
     {
-      company: "Optym India Pvt Ltd.",
+      company: "Elocity Technology India Pvt. Ltd",
+      location: "Bangalore",
+      timeline: "2019 August",
+      designation: "Principal Software Engineer, Mobile/App Development",
+      department: "Development",
+      notes: [
+        "Utility Web Portal - Web application for Utilities, in order to display/analyse electricity consumption data of EV customers",
+        "HIEV Mobile App - React Native App for EV customers to efficiently plan charging, view their consumption reports"
+      ]
+    },
+    {
+      company: "Optym India Pvt. Ltd",
       location: "Bangalore",
       timeline: "2017 April",
       designation: "Graphics Engineer, Senior UI Engineer",
@@ -11,12 +22,11 @@ export default {
         "Worked on a variety of web applications using ReactJS and WebGL technology. Listing some of them below.",
         "SkyGATE - Web solution for planning, optimizing and studying gate allocation in Airports",
         "HaulPLAN - Web solution for creating an optimized linehaul plan. Also it helps to do various studies on this plan.",
-        "WebETG - Space time graph of railway network",
-        "Pilot Projects - Worked on a number of pilot projects in the company"
+        "WebETG - Space time graph of railway network"
       ]
     },
     {
-      company: "VizExperts India Pvt Ltd.",
+      company: "VizExperts India Pvt. Ltd",
       location: "Bangalore",
       timeline: "2014 August",
       designation: "Engineer Graphics",
@@ -28,7 +38,7 @@ export default {
       ]
     },
     {
-      company: "Bhavna Software India Pvt Ltd.",
+      company: "Bhavna Software India Pvt. Ltd",
       location: "Noida",
       timeline: "2014 January",
       designation: "Software Engineer ",
@@ -39,14 +49,13 @@ export default {
       ]
     },
     {
-      company: "Vvidia Communications.",
+      company: "Vvidia Communications",
       location: "Pune",
       timeline: "2012 July",
       designation: "Member of Technical Staﬀ - R & D",
       department: "Development",
       notes: [
-        "Worked on a Multimedia Content Management tool - Vimeox - A web solution for managing/segregating multimedia content.",
-        "Developed a WAP portal for accessing multimedia content on mobile."
+        "Worked on a Multimedia Content Management tool - Vimeox - A web solution for managing/segregating multimedia content."
       ]
     }
   ]

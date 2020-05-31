@@ -45,13 +45,14 @@ export default theme => ({
 
   skillBadge: {
     display: "inline-block",
-    margin: "5px 5px",
-    padding: "2px 12px",
+    marginTop: "5px",
+    marginRight: "10px",
+    padding: "2px 8px",
     // backgroundColor: "#a3a3a3",
     color: "#7e7e7e",
     borderRadius: "3px",
     fontWeight: "bold",
-    fontSize: "16px",
+    fontSize: "14px",
     letterSpacing: "0.5px",
     border: "1px solid #a3a3a3"
   },
