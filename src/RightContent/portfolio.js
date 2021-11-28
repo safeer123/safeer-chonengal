@@ -22,7 +22,7 @@ const Portfolio = ({ classes }) => {
               className={classes.smallFont}
               href={c.link}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {c.link}
             </a>

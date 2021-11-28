@@ -90,7 +90,7 @@ const Header = ({ classes }) => (
           className={classes.contactInfoLink}
           href={contactInfo.linkedin}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           LinkedIn
         </a>
