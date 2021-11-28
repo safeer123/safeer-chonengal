@@ -3,7 +3,7 @@ import { compose } from "recompose";
 import { withStyles, withTheme } from "@material-ui/core/styles";
 import { Star } from "@material-ui/icons";
 
-import workExperience from "../dataSource/workExperience";
+// import workExperience from "../dataSource/workExperience";
 import skills from "../dataSource/skills";
 import styles from "./styles";
 
@@ -14,7 +14,7 @@ const Skills = ({ classes }) => {
         <Star className={classes.sectionTitleIcon} />
         SKILLS
       </h4>
-      {skills.map(s => (
+      {skills.map((s) => (
         <div className={classes.item}>
           <div className={classes.skillItem}>{s.title}</div>
           <div className={classes.skillRating}>
@@ -31,7 +31,4 @@ const Skills = ({ classes }) => {
   );
 };
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(Skills);
+export default compose(withTheme(), withStyles(styles))(Skills);

@@ -48,7 +48,7 @@ const Header = ({ classes }) => (
       </Typography>
 
       <div>
-        {resumeHeader.promotedSkills.map(s => (
+        {resumeHeader.promotedSkills.map((s) => (
           <div key={s} className={classes.skillBadge}>
             {s}
           </div>
@@ -90,6 +90,7 @@ const Header = ({ classes }) => (
           className={classes.contactInfoLink}
           href={contactInfo.linkedin}
           target="_blank"
+          rel="noreferrer"
         >
           LinkedIn
         </a>
@@ -110,7 +111,4 @@ const Header = ({ classes }) => (
   </div>
 );
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(Header);
+export default compose(withTheme(), withStyles(styles))(Header);

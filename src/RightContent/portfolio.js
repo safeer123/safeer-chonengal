@@ -13,12 +13,17 @@ const Portfolio = ({ classes }) => {
         <FeaturedPlayList className={classes.sectionTitleIcon} />
         PORTFOLIO
       </h4>
-      {portfolio.map(c => (
+      {portfolio.map((c) => (
         <div className={classes.item}>
           <Link className={classes.contentTextBullet} />
           <div className={classes.contentText}>
             {c.title} -{" "}
-            <a className={classes.smallFont} href={c.link} target="_blank">
+            <a
+              className={classes.smallFont}
+              href={c.link}
+              target="_blank"
+              rel="noreferrer"
+            >
               {c.link}
             </a>
             <div className={classes.smallFont}>
@@ -31,7 +36,4 @@ const Portfolio = ({ classes }) => {
   );
 };
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(Portfolio);
+export default compose(withTheme(), withStyles(styles))(Portfolio);
