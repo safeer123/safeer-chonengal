@@ -1,6 +1,6 @@
 export default [
   {
-    title: "JavaScript (ES6)",
+    title: "JavaScript",
     rating: 5
   },
   {
@@ -8,7 +8,7 @@ export default [
     rating: 4
   },
   {
-    title: "React (with Hooks)",
+    title: "ReactJS",
     rating: 4
   },
   {
@@ -17,10 +17,6 @@ export default [
   },
   {
     title: "WebGL",
-    rating: 4
-  },
-  {
-    title: "Material UI",
     rating: 4
   },
   {
@@ -36,11 +32,11 @@ export default [
     rating: 4
   },
   {
-    title: "GIT",
-    rating: 4
+    title: "AWS Services",
+    rating: 3
   },
   {
-    title: "AWS Services",
+    title: "System Design",
     rating: 3
   }
 ];

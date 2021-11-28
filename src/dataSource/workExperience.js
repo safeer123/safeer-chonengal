@@ -8,8 +8,9 @@ export default {
       designation: "Principal Software Engineer, Mobile/App Development",
       department: "Development",
       notes: [
+        "CMS - Charge Point Management System, a complete software infrastructure to manage EV Charging stations",
         "Utility Web Portal - Web application for Utilities, in order to display/analyse electricity consumption data of EV customers",
-        "HIEV Mobile App - React Native App for EV customers to efficiently plan charging, view their consumption reports"
+        "HIEV Mobile App - React Native App for HIEV customers to efficiently plan charging, view their consumption reports"
       ]
     },
     {
@@ -47,16 +48,16 @@ export default {
         "Worked on a Video transcoding tool for creating automation workﬂows for intelligent video signal processing.",
         "Worked on features - Flip: transcode video from one container to another. Identify: populate media properties of a video ﬁle"
       ]
-    },
-    {
-      company: "Vvidia Communications",
-      location: "Pune",
-      timeline: "2012 July",
-      designation: "Member of Technical Staﬀ - R & D",
-      department: "Development",
-      notes: [
-        "Worked on a Multimedia Content Management tool - Vimeox - A web solution for managing/segregating multimedia content."
-      ]
     }
+    // {
+    //   company: "Vvidia Communications",
+    //   location: "Pune",
+    //   timeline: "2012 July",
+    //   designation: "Member of Technical Staﬀ - R & D",
+    //   department: "Development",
+    //   notes: [
+    //     "Worked on a Multimedia Content Management tool - Vimeox - A web solution for managing/segregating multimedia content."
+    //   ]
+    // }
   ]
 };
