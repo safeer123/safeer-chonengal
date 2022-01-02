@@ -1,4 +1,4 @@
-export default theme => ({
+export default (theme) => ({
   item: {},
 
   centerAligned: {
@@ -56,7 +56,7 @@ export default theme => ({
     width: "50%",
     margin: "5px 10px",
     color: "#333",
-    fontSize: "15px",
+    fontSize: "14px",
     textAlign: "right"
   },
   skillRating: {
@@ -65,11 +65,12 @@ export default theme => ({
     margin: "0px 0px",
     color: "#333",
     fontSize: "15px",
-    border: "1px solid #9b9b9b"
+    border: "1px solid #9b9b9b",
+    borderRadius: "3px"
   },
   skillRatingStroke: {
     backgroundColor: "#9b9b9b",
     width: "50%",
-    height: "10px"
+    height: "6px"
   }
 });

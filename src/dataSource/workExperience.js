@@ -1,5 +1,5 @@
 export default {
-  title: "Work History (7.5 years)",
+  title: "Work History (8 years)",
   roles: [
     {
       company: "Elocity Technology India Pvt. Ltd",
@@ -8,9 +8,9 @@ export default {
       designation: "Principal Software Engineer, Mobile/App Development",
       department: "Development",
       notes: [
-        "CMS - Charge Point Management System, a complete software infrastructure to manage EV Charging stations",
-        "Utility Web Portal - Web application for Utilities, in order to display/analyse electricity consumption data of EV customers",
-        "HIEV Mobile App - React Native App for HIEV customers to efficiently plan charging, view their consumption reports"
+        "CMS - Charge Point Management System, manage/connect EV Charging stations and customers",
+        "Utility Web Portal - Web client for Utilities, in order to display/analyse electricity consumption data of EV customers",
+        "HIEV Mobile App - For HIEV customers to efficiently plan charging, view their consumption reports"
       ]
     },
     {
@@ -48,16 +48,14 @@ export default {
         "Worked on a Video transcoding tool for creating automation workﬂows for intelligent video signal processing.",
         "Worked on features - Flip: transcode video from one container to another. Identify: populate media properties of a video ﬁle"
       ]
+    },
+    {
+      company: "Vvidia Communications",
+      location: "Mumbai",
+      timeline: "2012 July",
+      designation: "Member of Technical Staff - R & D",
+      department: "Development",
+      notes: ["Worked on a Multimedia Content Management tool - Vimeox."]
     }
-    // {
-    //   company: "Vvidia Communications",
-    //   location: "Pune",
-    //   timeline: "2012 July",
-    //   designation: "Member of Technical Staﬀ - R & D",
-    //   department: "Development",
-    //   notes: [
-    //     "Worked on a Multimedia Content Management tool - Vimeox - A web solution for managing/segregating multimedia content."
-    //   ]
-    // }
   ]
 };

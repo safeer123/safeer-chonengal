@@ -8,5 +8,5 @@ export default {
     </React.Fragment>
   ),
   aboutMe: "Love to code. Let ideas blossom.",
-  promotedSkills: ["ReactJS", "NodeJS", "WebGL"]
+  promotedSkills: ["JavaScript", "C++", "Node"]
 };

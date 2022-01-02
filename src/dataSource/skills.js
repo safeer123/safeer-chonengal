@@ -1,7 +1,7 @@
 export default [
   {
     title: "JavaScript",
-    rating: 5
+    rating: 4.5
   },
   {
     title: "NodeJS",
@@ -13,22 +13,22 @@ export default [
   },
   {
     title: "React Native",
-    rating: 4
+    rating: 3
   },
   {
     title: "WebGL",
     rating: 4
   },
   {
-    title: "C/C++",
+    title: "C++",
     rating: 3
   },
   {
-    title: "OOPs",
-    rating: 5
+    title: "HTML/CSS/SCSS",
+    rating: 4
   },
   {
-    title: "HTML/CSS/SCSS",
+    title: "Docker/Containers",
     rating: 4
   },
   {
