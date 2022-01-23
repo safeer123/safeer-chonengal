@@ -13,12 +13,12 @@ const WorkHistory = ({ classes }) => {
         <Work className={classes.sectionTitleIcon} />
         {workExperience.title.toUpperCase()}
       </h4>
-      {workExperience.roles.map(w => (
-        <div className={classes.item}>
+      {workExperience.roles.map((w) => (
+        <div key={w.company} className={classes.item}>
           <h5 className={classes.itemTitle}>
             {w.company.toUpperCase()} ({w.location} - {w.timeline})
           </h5>
-          {w.notes.map(n => (
+          {w.notes.map((n) => (
             <div key={n} className={classes.content}>
               <Lens className={classes.contentTextBullet} />
               <div className={classes.contentText}>{n}</div>
@@ -30,7 +30,4 @@ const WorkHistory = ({ classes }) => {
   );
 };
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(WorkHistory);
+export default compose(withTheme(), withStyles(styles))(WorkHistory);

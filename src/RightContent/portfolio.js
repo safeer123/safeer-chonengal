@@ -14,7 +14,7 @@ const Portfolio = ({ classes }) => {
         PORTFOLIO
       </h4>
       {portfolio.map((c) => (
-        <div className={classes.item}>
+        <div key={c.id} className={classes.item}>
           <Link className={classes.contentTextBullet} />
           <div className={classes.contentText}>
             {c.title} -{" "}

@@ -15,7 +15,7 @@ const Skills = ({ classes }) => {
         SKILLS
       </h4>
       {skills.map((s) => (
-        <div className={classes.item}>
+        <div key={s.title} className={classes.item}>
           <div className={classes.skillItem}>{s.title}</div>
           <div className={classes.skillRating}>
             <div

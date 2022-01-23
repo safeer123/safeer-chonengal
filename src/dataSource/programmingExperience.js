@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     projectTitle: "SMALL-E Computer Character",
     subTitle: "C++ Graphics project",
     year: "2011",
@@ -9,6 +10,7 @@ export default [
     ]
   },
   {
+    id: 2,
     projectTitle: "Advanced Air Hockey",
     subTitle: "C++ Course Project",
     year: "2007",

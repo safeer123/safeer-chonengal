@@ -13,8 +13,8 @@ const HonorsAndAwards = ({ classes }) => {
         <ThumbUp className={classes.sectionTitleIcon} />
         HONORS AND AWARDS
       </h4>
-      {honorsAndAwards.map(a => (
-        <div className={classes.item}>
+      {honorsAndAwards.map((a) => (
+        <div key={a.id} className={classes.item}>
           <div key={a.details} className={classes.content}>
             <Lens className={classes.contentTextBullet} />
             <div className={classes.contentText}>
@@ -27,7 +27,4 @@ const HonorsAndAwards = ({ classes }) => {
   );
 };
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(HonorsAndAwards);
+export default compose(withTheme(), withStyles(styles))(HonorsAndAwards);

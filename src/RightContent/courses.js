@@ -13,8 +13,8 @@ const Courses = ({ classes }) => {
         <LibraryBooks className={classes.sectionTitleIcon} />
         RELEVANT COURSES
       </h4>
-      {relevantCources.map(c => (
-        <div className={classes.item}>
+      {relevantCources.map((c) => (
+        <div key={c.id} className={classes.item}>
           <Lens className={classes.contentTextBullet} />
           <div className={classes.contentText}>{c.title}</div>
         </div>
@@ -23,7 +23,4 @@ const Courses = ({ classes }) => {
   );
 };
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(Courses);
+export default compose(withTheme(), withStyles(styles))(Courses);

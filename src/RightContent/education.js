@@ -13,8 +13,8 @@ const Education = ({ classes }) => {
         <School className={classes.sectionTitleIcon} />
         EDUCATION
       </h4>
-      {education.map(e => (
-        <div className={classes.item}>
+      {education.map((e) => (
+        <div key={e.university} className={classes.item}>
           <div className={classes.contentText}>{e.degree}</div>
           <div className={classes.contentText}>
             {e.cource} - ({e.year})
@@ -29,7 +29,4 @@ const Education = ({ classes }) => {
   );
 };
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(Education);
+export default compose(withTheme(), withStyles(styles))(Education);

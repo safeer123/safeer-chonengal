@@ -13,12 +13,12 @@ const ProgrammingExperience = ({ classes }) => {
         <Code className={classes.sectionTitleIcon} />
         PROGRAMMING EXPERIENCE
       </h4>
-      {programmingExperience.map(p => (
-        <div className={classes.item}>
+      {programmingExperience.map((p) => (
+        <div key={p.id} className={classes.item}>
           <h5 className={classes.itemTitle}>
             {p.projectTitle.toUpperCase()} ({p.subTitle} - {p.year})
           </h5>
-          {p.details.map(d => (
+          {p.details.map((d) => (
             <div key={d} className={classes.content}>
               <Lens className={classes.contentTextBullet} />
               <div className={classes.contentText}>{d}</div>
@@ -30,7 +30,4 @@ const ProgrammingExperience = ({ classes }) => {
   );
 };
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(ProgrammingExperience);
+export default compose(withTheme(), withStyles(styles))(ProgrammingExperience);

@@ -97,16 +97,14 @@ const Header = ({ classes }) => (
         <Link className={classes.contactInfoIcon} />
       </Typography>
 
-      <Typography
-        variant="body1"
-        gutterBottom
+      <div
         classes={{
           body1: `${classes.headerFontStyle} ${classes.contactItem}`
         }}
       >
         <div className={classes.contactInfoAddress}>{contactInfo.address}</div>
         <LocationOn className={classes.contactInfoIcon} />
-      </Typography>
+      </div>
     </div>
   </div>
 );

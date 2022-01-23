@@ -13,8 +13,8 @@ const OtherActivities = ({ classes }) => {
         <Rowing className={classes.sectionTitleIcon} />
         OTHER ACTIVITIES
       </h4>
-      {otherActivities.map(c => (
-        <div className={classes.item}>
+      {otherActivities.map((c) => (
+        <div key={c.id} className={classes.item}>
           <Lens className={classes.contentTextBullet} />
           <div className={classes.contentText}>{c.details}</div>
         </div>
@@ -23,7 +23,4 @@ const OtherActivities = ({ classes }) => {
   );
 };
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(OtherActivities);
+export default compose(withTheme(), withStyles(styles))(OtherActivities);
