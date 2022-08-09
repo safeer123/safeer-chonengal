@@ -3,10 +3,10 @@ import React from "react";
 export default {
   title: (
     <React.Fragment>
-      Principal Software Engineer
-      <br /> Senior Web Application Engineer
+      Principal/Senior Software Engineer
+      <br /> Web Applications
     </React.Fragment>
   ),
-  aboutMe: "Love to code. Let ideas blossom.",
-  promotedSkills: ["JavaScript", "Node", "React", "WebGL"]
+  aboutMe: "Code your ideas and let 'em rise.",
+  promotedSkills: ["JavaScript", "NodeJS", "ReactJS", "WebGL"]
 };

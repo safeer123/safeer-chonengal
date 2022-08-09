@@ -9,7 +9,7 @@ export default {
   linkedin: "https://www.linkedin.com/in/safeerchonengal",
   address: (
     <React.Fragment>
-      SIRI ENCLAVE, ECC ROAD, <br /> WHITEFIELD, BANGALORE - 560066
+      SOWPARNIKA SANVI PH-1, VIJAYA NAGAR, <br /> WHITEFIELD, BANGALORE - 560066
     </React.Fragment>
   )
 };

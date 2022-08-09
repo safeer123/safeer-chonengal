@@ -4,6 +4,10 @@ export default [
     rating: 4.5
   },
   {
+    title: "Python",
+    rating: 3
+  },
+  {
     title: "NodeJS",
     rating: 4
   },
@@ -30,13 +34,5 @@ export default [
   {
     title: "Docker/Containers",
     rating: 4
-  },
-  {
-    title: "AWS Services",
-    rating: 3
-  },
-  {
-    title: "System Design",
-    rating: 3
   }
 ];
