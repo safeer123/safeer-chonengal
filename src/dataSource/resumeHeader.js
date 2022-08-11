@@ -7,6 +7,6 @@ export default {
       <br /> Web Applications
     </React.Fragment>
   ),
-  aboutMe: "Code your ideas and let 'em rise.",
+  aboutMe: "Code your ideas to let them rise.",
   promotedSkills: ["JavaScript", "NodeJS", "ReactJS", "WebGL"]
 };

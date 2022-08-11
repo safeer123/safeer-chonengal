@@ -4,6 +4,10 @@ export default [
     rating: 4.5
   },
   {
+    title: "DSA",
+    rating: 4
+  },
+  {
     title: "Python",
     rating: 3
   },
@@ -33,6 +37,6 @@ export default [
   },
   {
     title: "Docker/Containers",
-    rating: 4
+    rating: 3
   }
 ];
