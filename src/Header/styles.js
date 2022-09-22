@@ -11,7 +11,7 @@ export default (theme) => ({
   },
   profileDetails: {
     display: "inline-block",
-    padding: "20px 20px",
+    padding: "20px 24px",
     verticalAlign: "top",
     width: "410px"
     //border: "1px solid red"

@@ -1,4 +1,4 @@
-export default theme => ({
+export default (theme) => ({
   item: {},
 
   leftRegion: {
@@ -9,6 +9,7 @@ export default theme => ({
     boxSizing: "border-box",
     textAlign: "left",
     padding: "20px",
+    paddingLeft: "20px 24px",
     verticalAlign: "top"
   },
 
