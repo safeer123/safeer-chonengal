@@ -10,6 +10,6 @@ export default [
     university: "Indian Institute of Technology Bombay, Mumbai, Powai, India.",
     cource: "Engineering Physics",
     year: "2012",
-    results: "Cumulative GPA: 7.1/10.0 "
+    results: ""
   }
 ];

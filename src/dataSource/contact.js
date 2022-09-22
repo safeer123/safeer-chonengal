@@ -7,9 +7,5 @@ export default {
   phone: "+91 810 526 7620",
   email: "safeer2c@gmail.com",
   linkedin: "https://www.linkedin.com/in/safeerchonengal",
-  address: (
-    <React.Fragment>
-      SOWPARNIKA SANVI PH-1, VIJAYA NAGAR, <br /> WHITEFIELD, BANGALORE - 560066
-    </React.Fragment>
-  )
+  address: <React.Fragment>Bangalore, India</React.Fragment>
 };

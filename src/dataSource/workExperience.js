@@ -1,9 +1,9 @@
 export default {
-  title: "Work History (10 years)",
+  title: "Work History (9.5 years)",
   roles: [
     {
       company: "GrytFit Tech Private Limited",
-      location: "WFH",
+      location: "Bangalore",
       timeline: "2022 February",
       designation: "Senior Software Engineer,",
       department: "Engineering",

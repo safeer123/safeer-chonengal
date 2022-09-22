@@ -7,7 +7,7 @@ export default [
     link: "https://fun-with-graph.netlify.app/",
     description: (
       <React.Fragment>
-        Graph plotting tool - supports complex graphs
+        2d Graph visualization - supports complex graphs
       </React.Fragment>
     ),
     technology: "React"

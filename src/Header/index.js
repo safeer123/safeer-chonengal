@@ -10,11 +10,6 @@ import styles from "./styles";
 
 const Header = ({ classes }) => (
   <div className={classes.headerRoot}>
-    <img
-      src={contactInfo.profilePhoto}
-      alt="Profile"
-      className={classes.profilePhoto}
-    />
     <div className={classes.profileDetails}>
       <Typography
         component="h2"

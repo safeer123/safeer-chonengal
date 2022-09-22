@@ -1,4 +1,4 @@
-export default theme => ({
+export default (theme) => ({
   headerRoot: {
     width: "100%",
     height: "180px",
@@ -11,7 +11,7 @@ export default theme => ({
   },
   profileDetails: {
     display: "inline-block",
-    padding: "10px 20px",
+    padding: "20px 20px",
     verticalAlign: "top",
     width: "410px"
     //border: "1px solid red"

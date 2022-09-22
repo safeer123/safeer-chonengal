@@ -12,6 +12,10 @@ export default [
     rating: 3
   },
   {
+    title: "Machine Learning",
+    rating: 2
+  },
+  {
     title: "NodeJS",
     rating: 4
   },
@@ -21,7 +25,7 @@ export default [
   },
   {
     title: "React Native",
-    rating: 3
+    rating: 2
   },
   {
     title: "WebGL",
@@ -29,11 +33,11 @@ export default [
   },
   {
     title: "C++",
-    rating: 3
+    rating: 2.5
   },
   {
     title: "HTML/CSS/SCSS",
-    rating: 4
+    rating: 2.5
   },
   {
     title: "Docker/Containers",
