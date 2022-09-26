@@ -4,7 +4,7 @@ import { withStyles, withTheme } from "@material-ui/core/styles";
 
 import WorkHistory from "./workHistory";
 import ProgrammingExperience from "./programmingExperience";
-import HonorsAndAwards from "./honorsAndAwards";
+// import HonorsAndAwards from "./honorsAndAwards";
 import styles from "./styles";
 
 const LeftContent = ({ classes }) => {
@@ -13,13 +13,8 @@ const LeftContent = ({ classes }) => {
       <WorkHistory />
       <hr />
       <ProgrammingExperience />
-      <hr />
-      <HonorsAndAwards />
     </div>
   );
 };
 
-export default compose(
-  withTheme(),
-  withStyles(styles)
-)(LeftContent);
+export default compose(withTheme(), withStyles(styles))(LeftContent);

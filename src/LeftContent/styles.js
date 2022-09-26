@@ -18,6 +18,19 @@ export default (theme) => ({
     width: "95%"
   },
 
+  skillsWrapper: {
+    display: "flex",
+    margin: "8px 10px"
+  },
+  skillsItem: {
+    color: "#777",
+    fontSize: "12px",
+    padding: "2px 8px",
+    borderRadius: "4px",
+    border: "1px solid #DDD",
+    marginRight: "4px"
+  },
+
   sectionTitle: {
     margin: "15px 0px",
     color: "#555",

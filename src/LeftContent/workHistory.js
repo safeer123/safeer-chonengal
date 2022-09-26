@@ -24,6 +24,14 @@ const WorkHistory = ({ classes }) => {
               <div className={classes.contentText}>{n}</div>
             </div>
           ))}
+          <div className={classes.skillsWrapper}>
+            {w.skills &&
+              w.skills.map((s) => (
+                <div key={s} className={classes.skillsItem}>
+                  {s}
+                </div>
+              ))}
+          </div>
         </div>
       ))}
     </div>

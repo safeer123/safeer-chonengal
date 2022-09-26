@@ -54,7 +54,7 @@ export default (theme) => ({
     fontWeight: "bold",
     fontSize: "14px",
     letterSpacing: "0.5px",
-    border: "1px solid #a3a3a3"
+    border: "1px solid #c3c3c3"
   },
 
   contactDetails: {
