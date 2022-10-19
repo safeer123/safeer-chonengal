@@ -12,8 +12,8 @@ export default (theme) => ({
   profileDetails: {
     display: "inline-block",
     padding: "20px 24px",
-    verticalAlign: "top",
-    width: "410px"
+    verticalAlign: "top"
+    // width: "410px"
     //border: "1px solid red"
   },
 
@@ -46,20 +46,19 @@ export default (theme) => ({
   skillBadge: {
     display: "inline-block",
     marginTop: "5px",
-    marginRight: "10px",
-    padding: "2px 8px",
+    marginRight: "8px",
+    padding: "2px 8px 2px 2px",
     // backgroundColor: "#a3a3a3",
     color: "#7e7e7e",
-    borderRadius: "3px",
     fontWeight: "bold",
     fontSize: "14px",
     letterSpacing: "0.5px",
-    border: "1px solid #c3c3c3"
+    borderRight: "1px solid #c3c3c3"
   },
 
   contactDetails: {
     display: "inline-block",
-    padding: "10px 10px",
+    padding: "10px 20px",
     verticalAlign: "top",
     width: "310px",
     //border: "1px solid red",

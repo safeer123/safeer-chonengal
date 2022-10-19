@@ -4,16 +4,20 @@ export default [
     rating: 4.5
   },
   {
-    title: "DSA",
-    rating: 4
-  },
-  {
     title: "Python",
     rating: 3
   },
   {
-    title: "Machine Learning",
-    rating: 2
+    title: "ML / DL",
+    rating: 2.5
+  },
+  {
+    title: "TensorFlow / Keras",
+    rating: 2.5
+  },
+  {
+    title: "Computer Vision",
+    rating: 3
   },
   {
     title: "NodeJS",
@@ -32,15 +36,11 @@ export default [
     rating: 4
   },
   {
-    title: "C++",
-    rating: 2.5
-  },
-  {
     title: "HTML/CSS/SCSS",
     rating: 2.5
   },
   {
-    title: "Docker/Containers",
+    title: "Docker / Containers",
     rating: 3
   }
 ];

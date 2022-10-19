@@ -43,8 +43,15 @@ const Header = ({ classes }) => (
       </Typography>
 
       <div>
-        {resumeHeader.promotedSkills.map((s) => (
-          <div key={s} className={classes.skillBadge}>
+        {resumeHeader.promotedSkills.map((s, i) => (
+          <div
+            key={s}
+            className={classes.skillBadge}
+            style={{
+              borderRight:
+                i === resumeHeader.promotedSkills.length - 1 ? "none" : ""
+            }}
+          >
             {s}
           </div>
         ))}

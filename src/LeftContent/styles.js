@@ -8,8 +8,7 @@ export default (theme) => ({
     minHeight: "500px",
     boxSizing: "border-box",
     textAlign: "left",
-    padding: "20px",
-    paddingLeft: "20px 24px",
+    padding: "8px 20px",
     verticalAlign: "top"
   },
 
@@ -23,12 +22,10 @@ export default (theme) => ({
     margin: "8px 10px"
   },
   skillsItem: {
-    color: "#777",
+    color: "#444",
     fontSize: "12px",
     padding: "2px 8px",
-    borderRadius: "4px",
-    border: "1px solid #DDD",
-    marginRight: "4px"
+    borderRight: "1px solid #DDD"
   },
 
   sectionTitle: {

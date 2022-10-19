@@ -26,8 +26,14 @@ const WorkHistory = ({ classes }) => {
           ))}
           <div className={classes.skillsWrapper}>
             {w.skills &&
-              w.skills.map((s) => (
-                <div key={s} className={classes.skillsItem}>
+              w.skills.map((s, i) => (
+                <div
+                  key={s}
+                  className={classes.skillsItem}
+                  style={{
+                    borderRight: i === w.skills.length - 1 ? "none" : ""
+                  }}
+                >
                   {s}
                 </div>
               ))}

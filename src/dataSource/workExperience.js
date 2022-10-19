@@ -2,34 +2,46 @@ export default {
   title: "Work History (9.5 years)",
   roles: [
     {
-      company: "GrytFit Tech Private Limited",
+      company: "Phyt Health (GrytFit Tech) Pvt. Ltd",
       location: "Bangalore",
       timeline: "2022 February",
       designation: "Senior Software Engineer,",
       department: "Engineering",
       notes: [
-        `Worked on an AI-assisted Digital Physiotherapy Platform. Developed innovative fitness games using pose detection models, on Web (TensorFlow, ReactJS)`,
-        "Worked on an AI-based Video Consultation web app for physiotherapists"
+        `Fitness game app - 
+        We built fitness apps/games using pose estimation and classification models on the web, 
+        using React and TensorFlow models. Bridging the gap between the long-sitting profession and fitness, 
+        by introducing games on the web browser, using the webcam and deep computer vision ideas, so that, 
+        someone gets periodically reminded to do exercises via games. 
+        A default weekly plan is offered to the new users and there are options to customize 
+        the games and engage in a variety of AI-based fun activities. Get reminded of fitness games as a 
+        preventive measure for the issues like back pain, disc damage, strained neck, etc`,
+        `AI-based Video Consultation - Implemented a video consultation app for physiotherapists, enabling remote consultation over a video call with a patient. The incoming video stream from the patient is fed into a deep learning model and a complete body structure is analyzed/assessed. The app measures range of motion, displays angles and annotations around joints, introduces a modern way of physio consultation.`
       ],
-      skills: ["Python", "JavaScript", "React", "TensorFlow", "WebGL"]
+      skills: [
+        "Python",
+        "JavaScript",
+        "React",
+        "TensorFlow/Keras",
+        "Deep Compter Vision"
+      ]
     },
     {
       company: "Elocity Technology India Pvt. Ltd",
       location: "Bangalore",
       timeline: "2019 August",
-      designation: "Principal Software Engineer, Mobile/App Development",
+      designation: "Principal Software Engineer",
       department: "Engineering",
       notes: [
-        "Lead the development of Charge Point Management System - a software solution to manage and connect EV Charging stations with drivers",
-        "Lead the development of HIEV Mobile App - For EV customers to efficiently plan charging, view their consumption reports"
+        "Charge Point Management System - I led the development of CPMS, a team of 5 - a software solution to manage and connect EV charging stations with drivers. It offers a web portal for the CPOs and a mobile app solution for the EV drivers. EV charge stations connect with the AWS cloud backend via OCPP protocol. The mobile app helps EV drivers to efficiently charge their vehicles, search for EV charging spots, navigate to, authenticate at the charging station, view their consumption reports, and do many other activities related to EV charging"
       ],
       skills: [
         "JavaScript",
         "React",
         "Node",
-        "AgGrid",
         "ZingChart",
-        "PostgreSQL"
+        "PostgreSQL",
+        "AWS Services"
       ]
     },
     {
@@ -53,8 +65,7 @@ export default {
       designation: "Engineer Graphics",
       department: "Development",
       notes: [
-        `Development lead of VizDisplay - a product owned by the company. Feature development and support maintenance`,
-        "Also worked on a cross platform Controller Application in Qt."
+        `Development lead of VizDisplay - a centralized video wall display system. Feature development and maintenance. Worked on a cross platform controller application in Qt/QML.`
       ],
       skills: ["C++", "Qt", "QML"]
     },
@@ -77,7 +88,7 @@ export default {
       designation: "Member of Technical Staff - R & D",
       department: "Development",
       notes: ["Worked on a Multimedia Content Management tool - Vimeox."],
-      skills: ["PHP", "Web"]
+      skills: []
     }
   ]
 };

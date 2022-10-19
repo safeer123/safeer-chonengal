@@ -11,8 +11,8 @@ const LeftContent = ({ classes }) => {
   return (
     <div className={classes.leftRegion}>
       <WorkHistory />
-      <hr />
-      <ProgrammingExperience />
+      {/* <hr />
+      <ProgrammingExperience /> */}
     </div>
   );
 };
